@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Castellar";
+}
+
+.bgimg {
+    background-image: url('img/iot.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    /*font-family: "Castellar";*/
+    font-size: 25px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    padding: 20px;
+}
+
+.topleft > img:nth-child(1) {
+    /*border: 1px solid #ddd;*/
+    /*border-radius: 4px;*/
+    padding: 5px;
+    width: 200px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+} 
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 50px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #004fe2;
+    opacity: 0.9;
+    border-radius: 100px;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
