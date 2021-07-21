@@ -2,7 +2,7 @@ body, html {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: "Castellar";
+    font-family: "Calibri Light";
 }
 
 .bgimg {
@@ -12,7 +12,6 @@ body, html {
     background-size: cover;
     position: relative;
     color: white;
-    /*font-family: "Castellar";*/
     font-size: 25px;
 }
 
@@ -37,6 +36,7 @@ body, html {
 } 
 
 .middle {
+    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -45,10 +45,17 @@ body, html {
     text-align: center;
     background-color: #004fe2;
     opacity: 0.9;
-    border-radius: 100px;
+    border-radius: 50%;
+    width: 180px;
+    animation: fadein 5s;
 }
 
 hr {
     margin: auto;
     width: 40%;
+}
+
+@keyframes fadein {
+    from { opacity: 0; } 
+    to   { opacity: 0.9; }
 }
